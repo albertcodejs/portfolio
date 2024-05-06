@@ -22,6 +22,16 @@ useSeoMeta({
       </div>
       <div></div>
     </div>
-    <div></div>
+    <div class="flex justify-center py-16">
+      <img src="/public/img/Logo_JS.svg" alt="JavaScript logo" width="75" />
+      <img src="/public/img/Logo_Vue.js.svg" alt="Vue JS logo" width="75" />
+      <img
+        src="/public/img/Logo_TypeScript.svg"
+        alt="TypeScript logo"
+        width="75"
+      />
+      <img src="/public/img/Logo_Nuxt.svg" alt="Nuxt logo" width="75" />
+      <img src="/public/img/Logo_React.svg" alt="React logo" width="75" />
+    </div>
   </div>
 </template>
