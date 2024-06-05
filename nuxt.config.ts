@@ -7,10 +7,17 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "/"),
   },
   css: ["~/assets/main.scss"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+  modules: ["@nuxtjs/google-fonts"],
+  googleFonts: {
+    families: {
+      Inter: [100, 300],
     },
   },
 });
